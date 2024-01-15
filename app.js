@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
     var lookupTable = {
-        "Aceroofrepair.com": {
+        "aceroofrepair.com": {
             "description": "AceRoofRepair.com is the ultimate destination for professional roofing services. Specializing in high-quality, durable roof repairs, this domain is perfectly tailored for businesses excelling in roofing solutions. With a strong focus on SEO, AceRoofRepair.com ensures your services rank high in search engine results, connecting you with homeowners and businesses in urgent need of reliable roof repairs. Secure this domain to elevate your online presence and become the go-to expert in roof repair services."
         },
-        "Asimovsfolly.com": {
+        "asimovsfolly.com": {
             "description": "AsimovsFolly.com offers a unique and intriguing domain name, ideal for science fiction enthusiasts, writers, or technology forums. Inspired by the legendary Isaac Asimov, this domain resonates with creativity and futuristic ideas. It's a perfect fit for a blog, discussion forum, or an online community focused on science fiction, robotics, and AI. Enhance your SEO potential with AsimovsFolly.com and connect with a passionate audience eager for content that explores the realms of imagination and technological advancements."
         },
-        "Atomizly.com": {
+        "atomizly.com": {
             "description": "Atomizly.com is a cutting-edge domain name that speaks to innovation and modern technology. Ideal for businesses in the tech industry, startups focusing on nanotechnology, or digital transformation services, this domain provides a unique branding opportunity. With its SEO-friendly nature, Atomizly.com ensures your business stands out in search engine results, attracting tech-savvy customers and industry leaders looking for groundbreaking solutions and services. Embrace the future of technology with Atomizly.com and position your business at the forefront of innovation."
         },
         "hackensackdecks.com": {
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "growyourstream.com": {
             "description": "GrowYourStream.com is an exceptional domain for Twitch streamers and content creators looking to expand their audience. This SEO-friendly domain is a gateway to increasing your online presence and viewership."
         },
-        "CBDwillhelp.com": {
+        "cbdwillhelp.com": {
             "description": "CBDwillHelp.com is a premium domain, perfect for businesses in the CBD industry. With its SEO potential, it's an invaluable tool for connecting with customers seeking reliable CBD products and information."
         },
         "floridafue.com": {
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "newhairorlando.com": {
             "description": "NewHairOrlando.com, a premium domain, is perfect for hair restoration and transplant services in Orlando. It offers exceptional SEO advantages for businesses seeking to boost their online presence."
         },
-        "southfloridaFUE.com": {
+        "southfloridafue.com": {
             "description": "This premium domain, SouthFloridaFUE.com, is available for purchase. It's ideal for hair restoration clinics in South Florida, offering unparalleled SEO benefits and connecting you with clients seeking FUE treatments."
         },
         "forroofers.com": {
