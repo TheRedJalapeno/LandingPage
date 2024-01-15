@@ -1,5 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
     var lookupTable = {
+        "Aceroofrepair.com": {
+            "description": "AceRoofRepair.com is the ultimate destination for professional roofing services. Specializing in high-quality, durable roof repairs, this domain is perfectly tailored for businesses excelling in roofing solutions. With a strong focus on SEO, AceRoofRepair.com ensures your services rank high in search engine results, connecting you with homeowners and businesses in urgent need of reliable roof repairs. Secure this domain to elevate your online presence and become the go-to expert in roof repair services."
+        },
+        "Asimovsfolly.com": {
+            "description": "AsimovsFolly.com offers a unique and intriguing domain name, ideal for science fiction enthusiasts, writers, or technology forums. Inspired by the legendary Isaac Asimov, this domain resonates with creativity and futuristic ideas. It's a perfect fit for a blog, discussion forum, or an online community focused on science fiction, robotics, and AI. Enhance your SEO potential with AsimovsFolly.com and connect with a passionate audience eager for content that explores the realms of imagination and technological advancements."
+        },
+        "Atomizly.com": {
+            "description": "Atomizly.com is a cutting-edge domain name that speaks to innovation and modern technology. Ideal for businesses in the tech industry, startups focusing on nanotechnology, or digital transformation services, this domain provides a unique branding opportunity. With its SEO-friendly nature, Atomizly.com ensures your business stands out in search engine results, attracting tech-savvy customers and industry leaders looking for groundbreaking solutions and services. Embrace the future of technology with Atomizly.com and position your business at the forefront of innovation."
+        },
         "hackensackdecks.com": {
             "description": "Discover the potential of HackensackDecks.com, a prime domain for businesses specializing in deck construction and design in Hackensack. Ideal for SEO, this domain connects you with customers seeking quality decking solutions."
         },
@@ -14,9 +23,6 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         "CBDwillhelp.com": {
             "description": "CBDwillHelp.com is a premium domain, perfect for businesses in the CBD industry. With its SEO potential, it's an invaluable tool for connecting with customers seeking reliable CBD products and information."
-        },
-        "floridafoodfestival.com": {
-            "description": "FloridaFoodFestival.com is an ideal domain for promoting food festivals in Florida. It offers excellent SEO potential to attract food enthusiasts and vendors to your events and culinary showcases."
         },
         "floridafue.com": {
             "description": "FloridaFUE.com is a top-tier domain for Follicular Unit Extraction services in Florida. This domain ensures high SEO visibility, connecting you with clients looking for advanced hair restoration solutions."
@@ -92,15 +98,17 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     };        
 
-// Function to get query parameter value
-function getQueryParam(param) {
+  // Function to get query parameter value
+  function getQueryParam(param) {
     var queryParams = new URLSearchParams(window.location.search);
     return queryParams.get(param);
   }
   
-  // Check for test domain in query parameters
-  var testDomain = getQueryParam('testdomain');
-  var currentDomain = testDomain || window.location.hostname.toLowerCase();
+  // Check for 'domain' in query parameters
+  var domainQueryParam = getQueryParam('domain');
+  
+  // Determine the current domain for display
+  var currentDomain = domainQueryParam ? domainQueryParam.toLowerCase() : window.location.hostname.toLowerCase();
   
   // Handle local testing without specific domain
   if (!currentDomain || currentDomain === "localhost" || currentDomain.startsWith("192.168")) {
