@@ -126,8 +126,8 @@ document.addEventListener("DOMContentLoaded", function() {
   
 
   // Set Sedo Link
-  var sedoBaseURL = "https://sedo.com/search/?keyword=";
-  var sedoLink = sedoBaseURL + encodeURIComponent(currentDomain) + "&synonyms=false&special_inventory=1";
+  var sedoBaseURL = "https://sedo.com/search/details/?domain=";
+  var sedoLink = sedoBaseURL + encodeURIComponent(currentDomain);
   var sedoAnchor = document.getElementById("sedo-link");
   sedoAnchor.setAttribute('href', sedoLink);
 
